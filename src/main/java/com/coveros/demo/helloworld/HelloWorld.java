@@ -9,7 +9,7 @@ public class HelloWorld {
     final DateTimeFormatter dtf = DateTimeFormatter.ofPattern("h:mm:ss a 'on' MMMM d, yyyy'.'");
     final LocalDateTime now = LocalDateTime.now();
 
-    System.out.println("Boas a todos o tempo é " + dtf.format(now));
+    System.out.println("Boas a todos o tempo é stash" + dtf.format(now));
   }
 
 }
